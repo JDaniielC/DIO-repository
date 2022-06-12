@@ -5,3 +5,5 @@ Projeto incentivado pela plataforma DIO, referente ao curso Angular, criando um 
 ## Tema
 
 O Tema do E-commerce é livros.
+
+![Home](./.github/Home.png)
