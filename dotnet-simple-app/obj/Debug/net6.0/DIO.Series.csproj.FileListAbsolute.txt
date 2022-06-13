@@ -1,0 +1,15 @@
+D:\Repositorios\DIO-repository\dotnet-simple-app\bin\Debug\net6.0\DIO.Series.exe
+D:\Repositorios\DIO-repository\dotnet-simple-app\bin\Debug\net6.0\DIO.Series.deps.json
+D:\Repositorios\DIO-repository\dotnet-simple-app\bin\Debug\net6.0\DIO.Series.runtimeconfig.json
+D:\Repositorios\DIO-repository\dotnet-simple-app\bin\Debug\net6.0\DIO.Series.dll
+D:\Repositorios\DIO-repository\dotnet-simple-app\bin\Debug\net6.0\DIO.Series.pdb
+D:\Repositorios\DIO-repository\dotnet-simple-app\obj\Debug\net6.0\DIO.Series.csproj.AssemblyReference.cache
+D:\Repositorios\DIO-repository\dotnet-simple-app\obj\Debug\net6.0\DIO.Series.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repositorios\DIO-repository\dotnet-simple-app\obj\Debug\net6.0\DIO.Series.AssemblyInfoInputs.cache
+D:\Repositorios\DIO-repository\dotnet-simple-app\obj\Debug\net6.0\DIO.Series.AssemblyInfo.cs
+D:\Repositorios\DIO-repository\dotnet-simple-app\obj\Debug\net6.0\DIO.Series.csproj.CoreCompileInputs.cache
+D:\Repositorios\DIO-repository\dotnet-simple-app\obj\Debug\net6.0\DIO.Series.dll
+D:\Repositorios\DIO-repository\dotnet-simple-app\obj\Debug\net6.0\refint\DIO.Series.dll
+D:\Repositorios\DIO-repository\dotnet-simple-app\obj\Debug\net6.0\DIO.Series.pdb
+D:\Repositorios\DIO-repository\dotnet-simple-app\obj\Debug\net6.0\DIO.Series.genruntimeconfig.cache
+D:\Repositorios\DIO-repository\dotnet-simple-app\obj\Debug\net6.0\ref\DIO.Series.dll
