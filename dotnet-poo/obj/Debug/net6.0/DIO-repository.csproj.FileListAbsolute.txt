@@ -1,0 +1,15 @@
+D:\Repositorios\DIO-repository\dotnet-poo\bin\Debug\net6.0\DIO-repository.exe
+D:\Repositorios\DIO-repository\dotnet-poo\bin\Debug\net6.0\DIO-repository.deps.json
+D:\Repositorios\DIO-repository\dotnet-poo\bin\Debug\net6.0\DIO-repository.runtimeconfig.json
+D:\Repositorios\DIO-repository\dotnet-poo\bin\Debug\net6.0\DIO-repository.dll
+D:\Repositorios\DIO-repository\dotnet-poo\bin\Debug\net6.0\DIO-repository.pdb
+D:\Repositorios\DIO-repository\dotnet-poo\obj\Debug\net6.0\DIO-repository.csproj.AssemblyReference.cache
+D:\Repositorios\DIO-repository\dotnet-poo\obj\Debug\net6.0\DIO-repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repositorios\DIO-repository\dotnet-poo\obj\Debug\net6.0\DIO-repository.AssemblyInfoInputs.cache
+D:\Repositorios\DIO-repository\dotnet-poo\obj\Debug\net6.0\DIO-repository.AssemblyInfo.cs
+D:\Repositorios\DIO-repository\dotnet-poo\obj\Debug\net6.0\DIO-repository.csproj.CoreCompileInputs.cache
+D:\Repositorios\DIO-repository\dotnet-poo\obj\Debug\net6.0\DIO-repository.dll
+D:\Repositorios\DIO-repository\dotnet-poo\obj\Debug\net6.0\refint\DIO-repository.dll
+D:\Repositorios\DIO-repository\dotnet-poo\obj\Debug\net6.0\DIO-repository.pdb
+D:\Repositorios\DIO-repository\dotnet-poo\obj\Debug\net6.0\DIO-repository.genruntimeconfig.cache
+D:\Repositorios\DIO-repository\dotnet-poo\obj\Debug\net6.0\ref\DIO-repository.dll
