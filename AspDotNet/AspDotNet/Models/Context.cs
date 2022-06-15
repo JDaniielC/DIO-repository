@@ -11,6 +11,7 @@ namespace AspDotNet.Models
         public DbSet<Categoria> Categorias { get; set; }
         // Para ser feito isso precisou instalar o SqlServer e Tools:
         // https://docs.microsoft.com/pt-br/ef/core/get-started/overview/install
+        public DbSet<Produto> Produtos { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

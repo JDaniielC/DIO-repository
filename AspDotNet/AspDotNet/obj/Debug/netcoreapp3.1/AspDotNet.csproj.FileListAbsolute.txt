@@ -426,3 +426,8 @@ D:\Repositorios\DIO-repository\AspDotNet\AspDotNet\obj\Debug\netcoreapp3.1\Razor
 D:\Repositorios\DIO-repository\AspDotNet\AspDotNet\obj\Debug\netcoreapp3.1\Razor\Views\Categorias\Details.cshtml.g.cs
 D:\Repositorios\DIO-repository\AspDotNet\AspDotNet\obj\Debug\netcoreapp3.1\Razor\Views\Categorias\Edit.cshtml.g.cs
 D:\Repositorios\DIO-repository\AspDotNet\AspDotNet\obj\Debug\netcoreapp3.1\Razor\Views\Categorias\Index.cshtml.g.cs
+D:\Repositorios\DIO-repository\AspDotNet\AspDotNet\obj\Debug\netcoreapp3.1\Razor\Views\Produtos\Create.cshtml.g.cs
+D:\Repositorios\DIO-repository\AspDotNet\AspDotNet\obj\Debug\netcoreapp3.1\Razor\Views\Produtos\Delete.cshtml.g.cs
+D:\Repositorios\DIO-repository\AspDotNet\AspDotNet\obj\Debug\netcoreapp3.1\Razor\Views\Produtos\Details.cshtml.g.cs
+D:\Repositorios\DIO-repository\AspDotNet\AspDotNet\obj\Debug\netcoreapp3.1\Razor\Views\Produtos\Edit.cshtml.g.cs
+D:\Repositorios\DIO-repository\AspDotNet\AspDotNet\obj\Debug\netcoreapp3.1\Razor\Views\Produtos\Index.cshtml.g.cs

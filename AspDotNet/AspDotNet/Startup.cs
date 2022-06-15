@@ -28,6 +28,7 @@ namespace AspDotNet
             // Chamando o Context:
             services.AddDbContext<Context>();
             // Feito isso, chama o Migration com Tools - Add-Migration nome_da_migration
+            // E crie o banco Update-Database
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
