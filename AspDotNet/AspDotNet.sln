@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.32602.291
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspDotNet", "AspDotNet\AspDotNet.csproj", "{48E66E48-8D96-480D-949B-E39AEA5E23CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursoAPI", "CursoAPI\CursoAPI.csproj", "{26FD3C21-5E7C-4F22-9783-48A28D070D94}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CursoAPI", "CursoAPI\CursoAPI.csproj", "{26FD3C21-5E7C-4F22-9783-48A28D070D94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestsForProject", "TestsForProject\TestsForProject.csproj", "{9A40387D-F7EE-4EA7-9606-0C19848516A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{26FD3C21-5E7C-4F22-9783-48A28D070D94}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26FD3C21-5E7C-4F22-9783-48A28D070D94}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26FD3C21-5E7C-4F22-9783-48A28D070D94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A40387D-F7EE-4EA7-9606-0C19848516A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A40387D-F7EE-4EA7-9606-0C19848516A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A40387D-F7EE-4EA7-9606-0C19848516A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A40387D-F7EE-4EA7-9606-0C19848516A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
