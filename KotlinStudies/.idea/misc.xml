@@ -3,6 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Repositorios/DIO-repository/KotlinStudies/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.1435" />
+        <entry key="..\:/Repositorios/DIO-repository/KotlinStudies/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.1435" />
+        <entry key="..\:/Repositorios/DIO-repository/KotlinStudies/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1435" />
+        <entry key="..\:/Repositorios/DIO-repository/KotlinStudies/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.1435" />
+        <entry key="..\:/Repositorios/DIO-repository/KotlinStudies/app/src/main/res/layout/activity_detail.xml" value="0.1" />
+        <entry key="..\:/Repositorios/DIO-repository/KotlinStudies/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Repositorios/DIO-repository/KotlinStudies/app/src/main/res/layout/match_item.xml" value="0.1" />
+        <entry key="..\:/Repositorios/DIO-repository/KotlinStudies/app/src/main/res/menu/bottom_nav_menu.xml" value="0.14" />
         <entry key="..\:/Users/danie/AndroidStudioProjects/KotlinStudies/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.2005" />
         <entry key="..\:/Users/danie/AndroidStudioProjects/KotlinStudies/app/src/main/res/layout/activity_detail.xml" value="0.19972826086956522" />
         <entry key="..\:/Users/danie/AndroidStudioProjects/KotlinStudies/app/src/main/res/layout/activity_main.xml" value="0.1" />

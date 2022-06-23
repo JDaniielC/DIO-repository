@@ -1,7 +1,8 @@
-package com.example.kotlinstudies
+package com.example.kotlinstudies.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.kotlinstudies.R
 import com.example.kotlinstudies.databinding.ActivityDetailBinding
 
 class DetailActivity : AppCompatActivity() {
