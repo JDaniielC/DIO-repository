@@ -1,12 +1,15 @@
 package com.example.kotlinstudies.ui.adapter
 
 import android.content.Context
+import android.content.Intent
 import android.view.LayoutInflater
+import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.kotlinstudies.databinding.MatchItemBinding
 import com.example.kotlinstudies.domain.Match
+import com.example.kotlinstudies.ui.DetailActivity
 
 class MatchesAdapter(matchesList: List<Match>): RecyclerView.Adapter<MatchesAdapter.ViewHolder>() {
 
@@ -50,6 +53,12 @@ class MatchesAdapter(matchesList: List<Match>): RecyclerView.Adapter<MatchesAdap
         Glide.with(context).load(match.awayTeam.image).into(holder.binding.ivAwayTeam)
         if (match.awayTeam.score != null)
             holder.binding.tvAwayTeamScore.text = match.awayTeam.score.toString()
+
+        holder.itemView.setOnClickListener{
+            val intent: Intent = Intent(context, DetailActivity::class.java)
+            intent.putExtra(DetailActivity.Extras.MATCH, match)
+            context.startActivity(intent)
+        }
     }
 
     override fun getItemCount(): Int {

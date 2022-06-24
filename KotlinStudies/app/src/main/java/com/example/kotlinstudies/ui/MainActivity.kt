@@ -56,8 +56,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun setupMatchesRefresh() {
-        val findMatchesMethod = this::findMatchesFromApi
-        binding.srlMatchesUpdate.setOnRefreshListener { findMatchesMethod }
+        binding.srlMatchesUpdate.setOnRefreshListener { this::findMatchesFromApi }
     }
 
     private fun setupFloatingActionButton() {
