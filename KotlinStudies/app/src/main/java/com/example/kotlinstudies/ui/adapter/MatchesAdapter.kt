@@ -38,7 +38,7 @@ class MatchesAdapter(matchesList: List<Match>): RecyclerView.Adapter<MatchesAdap
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        // Glide pede um context
+        // Glide  e Intent pede um context
         val context: Context = holder.itemView.context
         val match: Match = matches.get(position)
 
