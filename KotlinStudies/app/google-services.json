@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "212830633497",
+    "project_id": "dio-repository",
+    "storage_bucket": "dio-repository.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:212830633497:android:55a1045eff6f3157e0b488",
+        "android_client_info": {
+          "package_name": "com.example.kotlinstudies"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "212830633497-s2m45ku8cladjinad07inn9o7gn9sn04.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDS-RqoL9qnTziu9dNVruA5OtXa2zbswHg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "212830633497-s2m45ku8cladjinad07inn9o7gn9sn04.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
