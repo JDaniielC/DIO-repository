@@ -16,6 +16,7 @@ import retrofit2.Callback
 import retrofit2.Response
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
+import java.util.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -55,7 +56,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun setupMatchesRefresh() {
-        binding.srlMatchesUpdate.setOnRefreshListener { this::findMatchesFromApi }
+        val findMatchesMethod = this::findMatchesFromApi
+        binding.srlMatchesUpdate.setOnRefreshListener { findMatchesMethod }
     }
 
     private fun setupFloatingActionButton() {
@@ -63,6 +65,13 @@ class MainActivity : AppCompatActivity() {
         view.animate().rotationBy(360f).setDuration(500)
             .setListener(object  : AnimatorListenerAdapter(){
                 override fun onAnimationEnd(animation: Animator) {
+                    val random = Random()
+                    for (i in 0 until matchesAdapter.itemCount) {
+                        val match: Match = matchesAdapter.getMatch(i)
+                        match.homeTeam.score = random.nextInt(match.homeTeam.stars + 1)
+                        match.awayTeam.score = random.nextInt(match.awayTeam.stars + 1)
+                        matchesAdapter.notifyItemChanged(i)
+                    }
                 }
             })
         }
@@ -75,7 +84,7 @@ class MainActivity : AppCompatActivity() {
         matchesApi.getMatches().enqueue(
             object : Callback<List<Match>> {
                 override fun onResponse(call: Call<List<Match>>, response: Response<List<Match>>) {
-                    if (response.isSuccessful()) {
+                    if (response.isSuccessful) {
                         val matches: List<Match> = response.body()!!
                         matchesAdapter = MatchesAdapter(matches)
                         binding.recyclerViewMatches.adapter = matchesAdapter

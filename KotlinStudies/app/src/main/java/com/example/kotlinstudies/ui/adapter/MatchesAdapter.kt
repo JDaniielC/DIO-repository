@@ -16,6 +16,10 @@ class MatchesAdapter(matchesList: List<Match>): RecyclerView.Adapter<MatchesAdap
         this.matches = matchesList
     }
 
+    public fun getMatch(position: Int): Match {
+        return matches.get(position);
+    }
+
     class ViewHolder(binding: MatchItemBinding) : RecyclerView.ViewHolder(binding.root) {
         val binding: MatchItemBinding
 
@@ -33,15 +37,19 @@ class MatchesAdapter(matchesList: List<Match>): RecyclerView.Adapter<MatchesAdap
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         // Glide pede um context
         val context: Context = holder.itemView.context
-
         val match: Match = matches.get(position)
+
         // Adapter toma os dados da partida para o layout
         holder.binding.tvHomeTeamName.text = match.homeTeam.name
         Glide.with(context).load(match.homeTeam.image).into(holder.binding.ivHomeTeam)
         // Glide pode modificar a imagem colocando match.homeTeam.image.circleCrop
+        if (match.homeTeam.score != null)
+            holder.binding.tvHomeTeamScore.text = match.homeTeam.score.toString()
 
         holder.binding.tvAwayTeamName.text = match.awayTeam.name
         Glide.with(context).load(match.awayTeam.image).into(holder.binding.ivAwayTeam)
+        if (match.awayTeam.score != null)
+            holder.binding.tvAwayTeamScore.text = match.awayTeam.score.toString()
     }
 
     override fun getItemCount(): Int {
