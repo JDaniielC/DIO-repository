@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Repositorios/DIO-repository/BusinessCardProject/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Repositorios/DIO-repository/BusinessCardProject/app/src/main/res/layout/activity_add_business_card.xml" value="0.17603850050658562" />
+        <entry key="..\:/Repositorios/DIO-repository/BusinessCardProject/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Repositorios/DIO-repository/BusinessCardProject/app/src/main/res/layout/item_business_card.xml" value="0.23485415108451757" />
       </map>
     </option>
   </component>
